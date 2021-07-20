@@ -114,11 +114,12 @@ font-weight: bold;
     /* min-width: 200px; */
     height: auto;
     cursor: pointer;
-    opacity: 90%;
+    opacity: 90%!important;
     border-radius: 2px;
     border-style: ridge;
         border-color: #3785C5;
 }
+
 .projectImg:hover{
     opacity: 100%;
 }
