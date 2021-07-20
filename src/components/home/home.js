@@ -15,6 +15,7 @@ import csharp from '../photos/icons/csharp.png'
 import python from '../photos/icons/python.png'
 import pytorch from '../photos/icons/pytorch.png'
 import opencv from '../photos/icons/opencv.png'
+import { Link } from 'react-router-dom'
 
 
 import "./home.css";
@@ -49,10 +50,14 @@ const Home = () => (
 
                         </div>
                         <br />
+
+                        <Link to="/projects">
                         <div className="buttonHolder">
-                            <button className="projectsBtn">Check out some of my projects</button>
+                            
+                            <button className="projectsBtn"  >Check out some of my projects</button>
 
                         </div>
+                        </Link>
                     </div>
                 </div>
 
@@ -108,14 +113,14 @@ const Home = () => (
                     </ul>
                 </div>
 
-    </div>
-                <div>Thank you for your time, I wish you a pleasant day :)</div>
-
             </div>
-            <div>:copyright: 2021 Yazan Qawasmeh</div>
+            <div>Thank you for your time, I wish you a pleasant day :)</div>
 
         </div>
+        <div>:copyright: 2021 Yazan Qawasmeh</div>
 
-        );
+    </div>
 
-        export default Home;
+);
+
+export default Home;
