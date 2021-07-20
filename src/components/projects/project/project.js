@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./project.css";
 import Modal from "react-modal";
-import { AiFillGithub, AiFillYoutube, AiFillCloseCircle, AiFillHome, AiFillRocket, AiFillPhone } from 'react-icons/ai';
+import { AiFillGithub, AiFillYoutube, AiFillCloseCircle } from 'react-icons/ai';
 import { BiLinkExternal } from 'react-icons/bi'
 // Modal.setAppElement("#root");
 const bg = {
@@ -28,14 +28,14 @@ const Project = ({ project }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     function next(){
-        if(ctr==2){
+        if(ctr===2){
             setCount(ctr - ctr)
         }else{
             setCount(ctr + 1)
         }
     }
     function previous(){
-        if(ctr==0){
+        if(ctr===0){
             setCount(ctr + 2)
         }else{
             setCount(ctr - 1)
@@ -116,9 +116,9 @@ const Project = ({ project }) => {
                     <button onClick={next} className="sideB">&lt; </button>
 
 
-                    {ctr == 0 ? (
+                    {ctr === 0 ? (
                     <img className="imgs" src={project.pic1} />) :
-                    ctr==1 ? (<img className="imgs" src={project.pic2} />): 
+                    ctr===1 ? (<img className="imgs" src={project.pic2} />): 
                      (<img className="imgs" src={project.pic3} />)}
 
 

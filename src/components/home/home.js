@@ -1,8 +1,6 @@
 import React from 'react';
 import Header from '../header/header'
 import yazan from '../photos/yazan.jpg'; // Tell webpack this JS file uses this image
-import { FaUniversity, GiPodiumWinner } from 'react-icons/fa';
-
 import css from '../photos/icons/css.png'
 import html from '../photos/icons/html.png'
 import javascript from '../photos/icons/javascript.png'
