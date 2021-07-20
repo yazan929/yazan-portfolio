@@ -5,7 +5,7 @@ import "./projects.css";
 import projectsList from "./projectsList";
 
 const Projects = () => {
-    let ctr = 1;
+    // let ctr = 1;
 
     const projects = projectsList;
     console.log(projects);
@@ -28,7 +28,7 @@ const Projects = () => {
 
                     {projects.map((project) => (
 
-                        <div key={project.id, ctr++}>
+                        <div key={project.id}>
 
                             <Project project={project} />
 
