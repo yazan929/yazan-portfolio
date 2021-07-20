@@ -31,7 +31,9 @@ const Header = () => (
                 {/* <a>Projects</a> */}
             </a>
 
-            <a></a>
+            <a>
+                <div></div>
+            </a>
 
             <a className="icon" href="https://github.com/yazan929" title="Github Account">
                 <AiFillGithub className="iconS"></AiFillGithub>

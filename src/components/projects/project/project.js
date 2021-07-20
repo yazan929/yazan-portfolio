@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./project.css";
 import Modal from "react-modal";
-import { AiFillGithub, AiFillYoutube, AiFillCloseCircle, AiFillHome, AiFillRocket, AiFillPhone } from 'react-icons/ai';
+import { AiFillGithub, AiFillYoutube, AiFillCloseCircle} from 'react-icons/ai';
 import { BiLinkExternal } from 'react-icons/bi'
 // Modal.setAppElement("#root");
 const bg = {
@@ -64,7 +64,7 @@ const Project = ({ project }) => {
 
 
                         {project.githubL ? (
-                            <a className="iconM" href={project.github} title="Github repo">
+                            <a className="iconM" href={"//"+project.github} title="Github repo">
                                 <AiFillGithub className="iconSM"></AiFillGithub>
                             </a>
                         ) :
@@ -75,7 +75,7 @@ const Project = ({ project }) => {
 
 
                         {project.youtubeL ? (
-                            <a className="iconM" href={project.youtube} title="Github repo">
+                            <a className="iconM" href={"//"+project.youtube} title="Github repo">
                                 <AiFillYoutube className="iconSM"></AiFillYoutube>
                             </a>
                         ) :
@@ -86,7 +86,7 @@ const Project = ({ project }) => {
 
 
                         {project.tryL ? (
-                            <a className="iconM" href={project.try} title="Demo">
+                            <a className="iconM" href={"//"+project.try} title="Demo">
                                 <BiLinkExternal className="iconSM"></BiLinkExternal>
                             </a>
                         ) :
@@ -117,9 +117,9 @@ const Project = ({ project }) => {
 
 
                     {ctr == 0 ? (
-                    <img className="imgs" src={project.pic1} />) :
-                    ctr==1 ? (<img className="imgs" src={project.pic2} />): 
-                     (<img className="imgs" src={project.pic3} />)}
+                    <img className="imgs" src={project.pic1} alt="pic1"/>) :
+                    ctr==1 ? (<img className="imgs" src={project.pic2} alt="pic2" />): 
+                     (<img className="imgs" src={project.pic3} alt="pic3" />)}
 
 
                     <button onClick={previous} className="sideB"> &gt;  </button>
