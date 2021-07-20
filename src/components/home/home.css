@@ -1,0 +1,363 @@
+
+.underH{
+    font-family: "Sylfaen"; src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+    font-size: 2rem;
+    color: #000000;
+
+    max-width: 80%;
+
+}
+.aboutP{
+    /* background-color: #3785C5; */
+    background: url('../photos/wallpaper/code_review.png');
+    /* background-repeat: no-repeat; */
+    display: block;
+    width: 100%;
+    position: relative;
+    /* background-size: auto; */
+
+}
+
+.awardsP{
+        /* background-color: #3785C5; */
+        background: url('../photos/wallpaper/awardsCode.png');
+        /* background-repeat: no-repeat; */
+        display: block;
+        width: 100%;
+        position: relative;
+        /* background-size: auto; */
+}
+.aboutPP{
+    text-align: center;
+/* width: 50%; */
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+}
+
+
+.T1{    
+    font-family: "Sylfaen"; src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 50px;
+    margin-top: 50px;
+    /* margin-left: 60px; */
+
+
+
+    
+}
+.T1B{    
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 50px;
+    margin-top: 50px;
+    /* margin-left: 60px; */
+
+    font-family: "Sylfaen"; src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+    text-transform: uppercase;
+    
+}
+
+
+.T2{
+    color: black;
+
+    font-size: 1.3em;
+    max-width: 80%;
+}
+
+.buttonHolder{
+    
+}
+.projectsBtn{
+    background-color: #3785C5;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    border-color: #3785C5;
+    margin: 10px 0px;
+    cursor: pointer;
+    width: 80%;
+    transition-duration: 0.4s;
+
+
+}
+
+.projectsBtn:hover{
+    background-color: #2f71a7;
+    color: white;
+
+}
+
+.simpleText{
+    color: white;
+    font-family: "Sylfaen";
+    src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+    font-size: 2.4rem;
+    /* font-weight: bold; */
+
+    /* max-width: 80%; */
+    /* padding: 40px; */
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+
+}
+.simpleText2{
+    color: black;
+    font-family: "Sylfaen"; src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+    font-size: 2.4rem;
+        /* max-width: 80%; */
+    /* padding: 40px; */
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
+}
+.welcome{
+
+}
+.Home{
+    background-color: #ffffff;
+    padding-top: 10rem;
+    /* height : '100%' */
+}
+
+.top2{
+    display: flex;
+    width: 50%;
+    /* justify-content: center; */
+    flex-direction:  column;
+}
+
+
+.top2Y{
+    display: flex;
+    width: 50%;
+    /* justify-content: center; */
+    flex-direction:  column;
+    align-items: center;
+}
+
+
+.main{
+    display: flex;
+    justify-content:center;
+    padding-top: 3rem;
+    margin: auto;
+    width: 90%;
+    /* border: 3px solid #45a29e; */
+    /* border-style: dotted; */
+    /* padding: 20px; */
+    flex-direction:  column;
+    border-radius: 25px;
+}
+
+.top1{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.yazpic{
+    border-radius: 10px;
+    border-color: #3785C5;
+    max-height: 400px;
+    height: auto;
+    min-width: 350px;
+    max-width: 350px;
+
+}
+.subTitle{
+    text-align: center;
+    padding: 20px;
+    padding-left: 65px;
+    font-family: "Sylfaen"; src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    color: black;
+    width: auto;
+}
+.iconsList{
+    /* width: 90%; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.iconLogo{
+    height: auto;
+    width: 100px;
+}
+.iconLogo:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-out;
+}
+
+.pointA {
+    list-style-image: url('http://www.w3.org/2000/svg');
+    /* padding-left: 70px; */
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.pointA>li{
+    /* list-style-type: lower-alpha; */
+    text-align: center;
+    color: white;
+    font-size: 2.4rem;
+    /* max-width: 80%; */
+}
+
+
+@media (max-width: 800px){
+    .pointA {
+        padding-right: 30px;
+    }
+    .pointA>li{
+        /* list-style-type: lower-alpha; */
+        /* text-align: center; */
+        /* color: white; */
+        font-size: 1.4rem;
+        /* padding-left: none; */
+
+        /* max-width: 80%; */
+    }
+    .underH{
+        margin-left: 30px;
+        font-size: 1.4rem;
+
+    }
+    .aboutPP{
+
+    width: 90%;
+    }
+
+    .subTitle{
+        /* padding: 20px; */
+        padding-left: 20px;
+
+    }
+
+    .buttonHolder{
+        text-align: center;
+    }
+
+
+    .simpleText{
+
+        font-size: 1.5rem;
+        /* text-align: center; */
+        /* max-width: 80%; */
+        /* padding: 40px; */
+        padding-top:0px;
+        padding-left: 20px;
+        
+    
+    }
+
+    .simpleText2{
+
+        font-size: 1.5rem;
+
+        width: 80%;
+    
+    }
+    .iconLogo{
+        width: 50px;
+    }
+    .top1{ 
+        flex-direction: column;
+     }
+     .top2{ 
+        justify-content: center;
+        
+        width: 100%;
+    }
+    .top2Y{
+        justify-content: center;
+        width: 100%;
+    }
+    .yazpic{
+        /* display: none; */
+        max-height: 400px;
+        height: auto;
+        min-width: none;
+        max-width: 300px;
+        text-align: center;
+        
+    }
+
+    .YazanH{
+        margin-top: 100px;
+        margin-left: 10px;
+        /* font-size: 1.5rem; */
+
+    }
+
+
+
+    
+.T1{    
+    padding: 0px;
+    padding-left: 10px;
+}
+}
+
+
+
+
+
+
+
+
+.name{
+    color: #3785C5;
+    text-align: center;
+
+    font-size: 1.5rem;
+}
+.major{
+    color: #000000;
+    text-align: center;
+
+    font-size: 1.5rem;
+
+}
+.uni{
+    color: #3785C5;
+    text-align: center;
+
+    font-size: 1.5rem;
+
+
+}
+
+.bioText{
+    width: 30%;
+    height: auto;
+}
+.YazanH{
+    font-family: "Sylfaen"; src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #000000;
+    width: auto;
+}
+
+
+
+

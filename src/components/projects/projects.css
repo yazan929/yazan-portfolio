@@ -1,0 +1,39 @@
+
+.Projects{
+    background-color: #0b0c10;
+    height : '100%'
+}
+
+.Home{
+    background-color: #0b0c10;
+    padding-top: 10rem;
+    /* height : '100%' */
+}
+
+.projectsList{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+@media (max-width: 1200px){
+
+    .projectsList{
+    
+
+        justify-content: center;
+
+    }
+
+
+}
+
+@media (max-width: 800px){
+
+
+
+
+}
