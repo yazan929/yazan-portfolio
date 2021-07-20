@@ -135,7 +135,7 @@ const Project = ({ project }) => {
 
                     {/* <img src='../../photos/projects/project1.jpg'  /> */}
 
-                    <img className="projectImg" src={project.photo} alt={project.title+" photo"} title="project photo" onClick={toggleModal} />
+                    <img className="projectImg" src={project.photo} alt={" photo"} title="project photo" onClick={toggleModal} />
 
                     <div className="textUnder">{project.name.substring(0, 1).toUpperCase() + project.name.substring(1)}</div>
                 </div>
