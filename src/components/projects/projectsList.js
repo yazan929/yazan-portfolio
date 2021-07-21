@@ -109,7 +109,7 @@ const projectsList=[
         tryL: true,
         youtube: "//www.youtube.com/watch?v=bli1XEKhdMc",
         github: "//www.github.com",
-        try: "//drive.google.com/uc?export=download&id=1jVQ9D5ngytzZpLr5SztZW5XPbHiaes34",
+        try: "//siasky.net/AACsGkYUgINt8w-dAZpedG_LzLr5KulZ9RSRkELXxqT6vQ",
         date: "May 2021",
 
     }, 
