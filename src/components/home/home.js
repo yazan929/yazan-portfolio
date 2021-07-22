@@ -63,6 +63,14 @@ const Home = () => (
 
 
             </div>
+
+            <div className="aboveAboutP">
+
+                    <div className="simpleTextE">  </div>
+
+            </div>
+
+
             <div className="aboutP">
                 <div className="aboutPP">
                     <div className="T1">ABOUT</div>
@@ -103,6 +111,11 @@ const Home = () => (
             </div>
             <div className="simpleText2">While my current focus is frontend development and creating responsive webapps with React, CSS, Nodejs and mongodb, I also do game development with Unity3D, C#, I've worked before with Java Springboot, Java/Android studio, Pytorch and .NET Framework, To see my skills in action, check out my Projects or contact me if you have any questions.</div>
 
+            <div className="aboveAwardsP">
+
+                    <div className="simpleTextE">  </div>
+
+            </div>
             <div className="awardsP">
                 <div className="T1">AWARDS</div>
                 <div>
@@ -114,10 +127,10 @@ const Home = () => (
                 </div>
 
             </div>
-            <div>Thank you for your time, I wish you a pleasant day :)</div>
+            {/* <div>Thank you for your time, I wish you a pleasant day :)</div> */}
 
         </div>
-        <div>:copyright: 2021 Yazan Qawasmeh</div>
+        <div> &copy; 2021 Yazan Qawasmeh</div>
 
     </div>
 

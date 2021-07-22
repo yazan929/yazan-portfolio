@@ -7,10 +7,24 @@
     max-width: 80%;
 
 }
+.aboveAboutP{
+    background-color: #3785C5;
+    /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
+    clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+
+}
+.aboveAwardsP{
+    background-color: #3785C5;
+    /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
+    clip-path: polygon(0 100%, 0 0, 100% 100%, 0 100%);
+}
+
 .aboutP{
-    /* background-color: #3785C5; */
+    background-color: #3785C5;
     background: url('../photos/wallpaper/code_review.png');
     /* background-repeat: no-repeat; */
+    /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
+
     display: block;
     width: 100%;
     position: relative;
@@ -19,13 +33,29 @@
 }
 
 .awardsP{
-        /* background-color: #3785C5; */
         background: url('../photos/wallpaper/awardsCode.png');
-        /* background-repeat: no-repeat; */
-        display: block;
+        /* display: block;
         width: 100%;
-        position: relative;
+        position: relative; */
+        background-color: #3785C5;
+        /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
+
         /* background-size: auto; */
+        /* background-repeat: no-repeat; */
+        /* background-color: #3785C5; */
+
+
+        /* z-index: 1; */
+        /* height: 100%; */
+        /* width: 100%; */
+        /* position: fixed; */
+        /* overflow: auto; */
+        /* top: 0px; */
+        /* left: 0px; */
+        /* background: rgba(0, 0, 0, 0.7); */
+
+
+
 }
 .aboutPP{
     text-align: center;
@@ -44,7 +74,7 @@ width: 70%;
     text-transform: uppercase;
     color: white;
     padding-top: 50px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     /* margin-left: 60px; */
 
 
@@ -95,6 +125,12 @@ width: 70%;
     background-color: #2f71a7;
     color: white;
 
+}
+
+
+.simpleTextE{
+    padding-left: 60px;
+    padding-bottom: 120px;
 }
 
 .simpleText{
