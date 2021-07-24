@@ -25,12 +25,39 @@ import yazanport1 from '../photos/projects/yazanport1.jpg';
 import yazanport2 from '../photos/projects/yazanport2.jpg';
 import yazanport3 from '../photos/projects/yazanport3.jpg';
 
-const projectsList=[
+import techiesCal1 from '../photos/projects/techiesCal1.png';
+import techiesCal2 from '../photos/projects/techiesCal2.png';
+import techiesCal3 from '../photos/projects/techiesCal3.png';
+import techiesCal from '../photos/projects/techiesCal.jpg';
+
+const projectsList = [
+    {
+        photo: techiesCal,
+        pic1: techiesCal1,
+        pic2: techiesCal2,
+        pic3: techiesCal3,
+        about: "A calculator for the videogame Dota",
+        name: "Techies Calculator",
+        projectTitle: "xd",
+        technologies: "Unity, C#",
+        msg: "A calculator that checks the level and ",
+        game: false,
+        webapp: true,
+        youtubeL: false,
+        githubL: true,
+        tryL: true,
+        youtube: "//",
+        github: "//https://github.com/yazan929/Techies_calculator",
+        try: "",
+        date: "July 2021",
+
+    },
+
     {
         photo: yazanport,
         pic1: yazanport1,
         pic2: yazanport2,
-        pic3: yazanport3,   
+        pic3: yazanport3,
         about: "A page about my skills and the projects that i have made",
         name: "Portfolio webapp",
         projectTitle: "xd",
@@ -46,12 +73,12 @@ const projectsList=[
         try: "",
         date: "July 2021",
 
-    }, 
+    },
     {
         photo: Rcube,
         pic1: Rcube1,
         pic2: Rcube2,
-        pic3: Rcube3,   
+        pic3: Rcube3,
         about: "Final year project - currently working on (not yet finished)",
         name: "3x3x3 Rubik’s Cube Solver",
         projectTitle: "xd",
@@ -67,13 +94,13 @@ const projectsList=[
         try: "",
         date: "Apr 2021",
 
-    }, 
+    },
 
     {
         photo: yazanShoes,
         pic1: yazanShoes1,
         pic2: yazanShoes2,
-        pic3: yazanShoes3,   
+        pic3: yazanShoes3,
         about: "Practice project where i got to learn about fullstack development",
         name: "Yazan929 Shoes Shop",
         projectTitle: "xd",
@@ -89,14 +116,14 @@ const projectsList=[
         try: "//github.com/yazan929/ShoeBackend",
         date: "Apr 2021",
 
-    }, 
+    },
 
-    
+
     {
         photo: ateSeconds,
         pic1: ateSeconds1,
         pic2: ateSeconds2,
-        pic3: ateSeconds3,   
+        pic3: ateSeconds3,
         about: "A GameJam submission",
         name: "Ate seconds",
         projectTitle: "xd",
@@ -112,13 +139,13 @@ const projectsList=[
         try: "//siasky.net/AACsGkYUgINt8w-dAZpedG_LzLr5KulZ9RSRkELXxqT6vQ",
         date: "May 2021",
 
-    }, 
+    },
 
     {
         photo: qomra,
         pic1: qomra1,
         pic2: qomra2,
-        pic3: qomra3,   
+        pic3: qomra3,
         about: "A GameJam submission",
         name: "Qomra",
         technologies: "Unity3D, C#",
