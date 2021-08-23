@@ -30,14 +30,41 @@ import techiesCal2 from '../photos/projects/techiesCal2.png';
 import techiesCal3 from '../photos/projects/techiesCal3.png';
 import techiesCal from '../photos/projects/techiesCal.jpg';
 
+import intii from '../photos/projects/intii.jpg';
+import inti1 from '../photos/projects/inti1.jpg';
+import inti2 from '../photos/projects/inti2.jpg';
+import inti3 from '../photos/projects/inti3.jpg';
+
 const projectsList = [
+    {
+        photo: intii,
+        pic1: inti1,
+        pic2: inti2,
+        pic3: inti3,
+        about: "A GameJam submission",
+        name: "INTI- School of engineering and technology",
+        technologies: "HTML, CSS",
+        projectTitle: "xd",
+        msg: "An assignment of creating website with HTML and CSS about INTI collage.",
+        game: true,
+        webapp: false,
+        youtubeL: false,
+        githubL: true,
+        tryL: true,
+        youtube: "//www.youtube.com/watch?v=35vpQuWmKbg",
+        github: "//www.github.com",
+        try: "//htmlpreview.github.io/?https://raw.githubusercontent.com/yazan929/SOEAT-INTI/main/index.html",
+        date: "July 2017",
+
+    },
+
     {
         photo: techiesCal,
         pic1: techiesCal1,
         pic2: techiesCal2,
         pic3: techiesCal3,
         about: "A calculator for the videogame Dota",
-        name: "Techies Calculator",
+        name: "Techies Calculator Android",
         projectTitle: "xd",
         technologies: "Unity, C#",
         msg: "A calculator that checks the level and ",
@@ -162,7 +189,6 @@ const projectsList = [
         date: "Dec 2019",
 
     },
-
 
 
 ];
