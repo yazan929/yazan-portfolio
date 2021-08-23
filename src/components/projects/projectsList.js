@@ -67,7 +67,7 @@ const projectsList = [
         name: "Techies Calculator Android",
         projectTitle: "xd",
         technologies: "Unity, C#",
-        msg: "A calculator that checks the level and ",
+        msg: "A calculator for a video game called DOTA2 that calculates the number mines needed to kill an enemy by taking health points and magic resistance into concederations",
         game: false,
         webapp: true,
         youtubeL: false,
