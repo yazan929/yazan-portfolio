@@ -75,11 +75,11 @@ const Project = ({ project }) => {
 
 
                         {project.youtubeL ? (
-                            <a className="iconM" href={"//"+project.youtube} title="Github repo">
+                            <a className="iconM" href={"//"+project.youtube} title="Youtube demo">
                                 <AiFillYoutube className="iconSM"></AiFillYoutube>
                             </a>
                         ) :
-                            <a className="iconN" title="No youtube demo available">
+                            <a className="iconN" title="No Youtube available">
                                 <AiFillYoutube className="iconSM"></AiFillYoutube>
                             </a>}
 

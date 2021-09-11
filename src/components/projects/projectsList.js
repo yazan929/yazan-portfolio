@@ -74,7 +74,7 @@ const projectsList = [
         githubL: true,
         tryL: true,
         youtube: "//",
-        github: "//https://github.com/yazan929/Techies_calculator",
+        github: "//github.com/yazan929/Techies_calculator",
         try: "",
         date: "July 2021",
 
