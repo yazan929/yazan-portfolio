@@ -45,7 +45,7 @@ const Home = () => (
                             I have a Diploma in Information Technology from INTI collage in collaboration with IBM.
                         </div>
                         <br />
-                        <div className="underH">Highly motivated developer, Passionate about what I do and constantly seeking New challenges,
+                        <div className="underH">Highly motivated developer, passionate about learning and constantly seeking new challenges.
                             Loves building user-friendly websites, web apps and creating video games.
 
                         </div>
@@ -74,7 +74,7 @@ const Home = () => (
             <div className="aboutP">
                 <div className="aboutPP">
                     <div className="T1">ABOUT</div>
-                    <div className="simpleText"> My name is Yazan Qawasmeh, I'm a junior software engineer who is always experimenting, learning, and never bored, Currently i am focusing on improving my web development skills and at React as a framework.  </div>
+                    <div className="simpleText"> My name is Yazan Qawasmeh, I'm a junior software engineer who is always experimenting, learning, and never bored, Currently I am focusing on improving my web development skills and at React as a framework.  </div>
                 </div>
 
             </div>

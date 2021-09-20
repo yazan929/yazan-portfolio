@@ -36,27 +36,7 @@ import inti2 from '../photos/projects/inti2.jpg';
 import inti3 from '../photos/projects/inti3.jpg';
 
 const projectsList = [
-    {
-        photo: intii,
-        pic1: inti1,
-        pic2: inti2,
-        pic3: inti3,
-        about: "A GameJam submission",
-        name: "INTI- School of engineering and technology",
-        technologies: "HTML, CSS",
-        projectTitle: "xd",
-        msg: "An assignment of creating website with HTML and CSS about INTI collage.",
-        game: true,
-        webapp: false,
-        youtubeL: false,
-        githubL: true,
-        tryL: true,
-        youtube: "//www.youtube.com/watch?v=35vpQuWmKbg",
-        github: "//www.github.com",
-        try: "//htmlpreview.github.io/?https://raw.githubusercontent.com/yazan929/SOEAT-INTI/main/index.html",
-        date: "July 2017",
-
-    },
+   
 
     {
         photo: techiesCal,
@@ -79,7 +59,27 @@ const projectsList = [
         date: "July 2021",
 
     },
+    {
+        photo: intii,
+        pic1: inti1,
+        pic2: inti2,
+        pic3: inti3,
+        about: "An Assignment",
+        name: "INTI- SOEAT",
+        technologies: "HTML, CSS",
+        projectTitle: "xd",
+        msg: "INTI- School Of Engineering And Technologies, Is an assignment about creating a website with HTML and CSS for the School Of Engineering And Technologies at INTI collage.",
+        game: true,
+        webapp: false,
+        youtubeL: false,
+        githubL: true,
+        tryL: true,
+        youtube: "//www.youtube.com/watch?v=35vpQuWmKbg",
+        github: "//www.github.com",
+        try: "//htmlpreview.github.io/?https://raw.githubusercontent.com/yazan929/SOEAT-INTI/main/index.html",
+        date: "July 2017",
 
+    },
     {
         photo: yazanport,
         pic1: yazanport1,
