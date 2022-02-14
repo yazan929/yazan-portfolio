@@ -180,7 +180,7 @@
     cursor: pointer;
     transition: 0.3s ease;
     color: #3785C5;
-        padding-left: 10px;
+    padding-left: 10px;
     text-align: center;
     font-size: 1.9rem;
 }
@@ -257,9 +257,21 @@
     /* .imagesHolder:nth-child(1){
         display: none;
     } */
+    .modalAbout{
+        font-size: 1.5rem;
+        color: #3785C5;
+        width: 100%;
+    }
     .otherSide{
 
         padding-left: 40px;
+    }
+    .modalDesc{
+        padding-top: 30px;
+        margin-right: 20px;
+        font-size: 0.8rem;
+        color: white;
+        width: 70%;
     }
     .closeHolder{
         display: none;
