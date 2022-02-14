@@ -22,18 +22,6 @@ const Header = () => (
 
         </div> */}
         <div className="Section2">
-            <a className="icon" href="/home" title="Home">
-                <AiFillHome className="iconS"></AiFillHome>
-                {/* <a>Home</a> */}
-            </a>
-            <a className="icon" href="/projects" title="Projects">
-                <AiFillRocket className="iconS"></AiFillRocket>
-                {/* <a>Projects</a> */}
-            </a>
-
-            <a>
-                <div></div>
-            </a>
 
             <a className="icon" href="https://github.com/yazan929" title="Github Account">
                 <AiFillGithub className="iconS"></AiFillGithub>
