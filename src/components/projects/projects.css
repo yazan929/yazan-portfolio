@@ -1,39 +1,17 @@
-
-.Projects{
-    background-color: #0b0c10;
-    height : '100%'
+.projectListParent{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 }
-
-.Home{
-    background-color: #0b0c10;
-    padding-top: 10rem;
-    /* height : '100%' */
-}
-
 .projectsList{
-    
+    margin: auto;
+    max-width: 1600px;
+    margin-right: 150px;
+    margin-left: 150px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: flex-start;
+    justify-content: center;
+    gap: 30px 30px;
 }
 
-@media (max-width: 1200px){
-
-    .projectsList{
-    
-
-        justify-content: center;
-
-    }
-
-
-}
-
-@media (max-width: 800px){
-
-
-
-
-}

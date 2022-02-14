@@ -17,28 +17,23 @@ const Projects = () => {
         <div>
             <Header />
             <div className="Break"></div>
-            <div>No Projects Found </div>
+            <div>No Projects Found - </div>
         </div>
     ) : (
         <div>
             <Header />
 
 
-            <div className="Home">
+            <div className="projectListParent">
                 <div className="projectsList">
-
 
                     {projects.map((project) => (
 
-                        <div key={project.id}>
+                        // <div key={project.id}>
 
-                            <Project project={project} />
+                        <Project project={project} />
 
-                        </div>
-
-
-
-
+                        // </div>
 
                     ))}
 

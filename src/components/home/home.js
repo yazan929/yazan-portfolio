@@ -16,6 +16,7 @@ import python from '../photos/icons/python.png'
 import pytorch from '../photos/icons/pytorch.png'
 import opencv from '../photos/icons/opencv.png'
 import { Link } from 'react-router-dom'
+import Projects from '../projects/projects'
 
 
 import "./home.css";
@@ -41,8 +42,8 @@ const Home = () => (
                         <div className="YazanH">Biography </div>
                         <br />
                         <br />
-                        <div className="underH">A bachelor's degree student in the Department of Computer Science at Coventry University graduating in Mar 2022,
-                            I have a Diploma in Information Technology from INTI collage in collaboration with IBM.
+                        <div className="underH">A bachelor's degree student in the Department of Computer Science at Coventry University,
+                            I have a Diploma in Information Technology from INTI college in collaboration with IBM.
                         </div>
                         <br />
                         <div className="underH">Highly motivated developer, passionate about learning and constantly seeking new challenges.
@@ -52,11 +53,11 @@ const Home = () => (
                         <br />
 
                         <Link to="/projects">
-                        <div className="buttonHolder">
-                            
-                            <button className="projectsBtn"  >Check out some of my projects</button>
+                            <div className="buttonHolder">
 
-                        </div>
+                                <button className="projectsBtn"  >Check out some of my projects</button>
+
+                            </div>
                         </Link>
                     </div>
                 </div>
@@ -66,7 +67,7 @@ const Home = () => (
 
             <div className="aboveAboutP">
 
-                    <div className="simpleTextE">  </div>
+                <div className="simpleTextE">  </div>
 
             </div>
 
@@ -83,37 +84,52 @@ const Home = () => (
             <div className="T1B">SKILLS</div>
             <div>
                 <div className="subTitle">Web Development languages frameworks and tools</div>
-                <div className="iconsList">
-
-                    <img className="iconLogo" src={react} title="React" title="React" />
-                    <img className="iconLogo" src={html} alt="HTML" title="HTML" />
-                    <img className="iconLogo" src={css} alt="CSS" title="CSS" />
-                    <img className="iconLogo" src={javascript} alt="JAVASCRIPT" title="Javascript" />
-                    <img className="iconLogo" src={nodejs} alt="NodeJS" title="NodeJS" />
-                    <img className="iconLogo" src={mongodb} alt="MongoDB" title="MongoDB" />
-                    <img className="iconLogo" src={springboot} alt="SpringBoot" title="SpringBoot" />
-                    <img className="iconLogo" src={git} alt="Git" title="Git" />
-                    <img className="iconLogo" src={github} alt="GitHub" title="GitHub" />
+                <div className="iconCenter">
 
 
+                    <div className="iconsList">
+
+                        <img className="iconLogo" src={react} title="React" title="React" />
+                        <img className="iconLogo" src={html} alt="HTML" title="HTML" />
+                        <img className="iconLogo" src={css} alt="CSS" title="CSS" />
+                        <img className="iconLogo" src={javascript} alt="JAVASCRIPT" title="Javascript" />
+                        <img className="iconLogo" src={nodejs} alt="NodeJS" title="NodeJS" />
+                        <img className="iconLogo" src={mongodb} alt="MongoDB" title="MongoDB" />
+                        <img className="iconLogo" src={springboot} alt="SpringBoot" title="SpringBoot" />
+                        <img className="iconLogo" src={git} alt="Git" title="Git" />
+                        <img className="iconLogo" src={github} alt="GitHub" title="GitHub" />
+
+
+                    </div>
                 </div>
                 <br />
                 <br />
                 <div className="subTitle">Game Development and Machine learning</div>
-                <div className="iconsList">
-                    <img className="iconLogo" src={csharp} alt="Csharp" title="C#" />
-                    <img className="iconLogo" src={unity3d} alt="Unity3D" title="Unity3D" />
-                    <img className="iconLogo" src={opencv} alt="OpenCV" title="OpenCV" />
-                    <img className="iconLogo" src={python} alt="Python" title="Python" />
-                    <img className="iconLogo" src={pytorch} alt="Pytorch" title="Pytorch" />
+                <div className="iconCenter">
 
+                    <div className="iconsList">
+                        <img className="iconLogo" src={csharp} alt="Csharp" title="C#" />
+                        <img className="iconLogo" src={unity3d} alt="Unity3D" title="Unity3D" />
+                        <img className="iconLogo" src={opencv} alt="OpenCV" title="OpenCV" />
+                        <img className="iconLogo" src={python} alt="Python" title="Python" />
+                        <img className="iconLogo" src={pytorch} alt="Pytorch" title="Pytorch" />
+
+                    </div>
                 </div>
+
             </div>
-            <div className="simpleText2">While my current focus is frontend development and creating responsive webapps with React, CSS, Nodejs and mongodb, I also do game development with Unity3D, C#, I've worked before with Java Springboot, Java/Android studio, Pytorch and .NET Framework, To see my skills in action, check out my Projects or contact me if you have any questions.</div>
+            <div className="simpleText2P">
+
+            <div className="simpleText2">While my current focus is frontend development and creating responsive webapps with React, 
+            CSS, Nodejs and mongodb, I also do game development with Unity3D, C#, I've worked before with Java Springboot, Java/Android studio,
+             Pytorch and .NET Framework, check out my Projects or contact me if you have any questions.</div>
+             </div>
+
+            <Projects />
 
             <div className="aboveAwardsP">
 
-                    <div className="simpleTextE">  </div>
+                <div className="simpleTextE">  </div>
 
             </div>
             <div className="awardsP">

@@ -35,28 +35,31 @@ import inti1 from '../photos/projects/inti1.jpg';
 import inti2 from '../photos/projects/inti2.jpg';
 import inti3 from '../photos/projects/inti3.jpg';
 
-const projectsList = [
-   
+import robo from '../photos/projects/robo.jpg';
+import robo1 from '../photos/projects/robo1.jpg';
+import robo2 from '../photos/projects/robo2.jpg';
+import robo3 from '../photos/projects/robo3.jpg';
 
+const projectsList = [
     {
-        photo: techiesCal,
-        pic1: techiesCal1,
-        pic2: techiesCal2,
-        pic3: techiesCal3,
-        about: "A calculator for the videogame Dota",
-        name: "Techies Calculator Android",
+        photo: Rcube,
+        pic1: Rcube1,
+        pic2: Rcube2,
+        pic3: Rcube3,
+        about: "3x3x3 Rubik’s Cube Solver, Final year project (not yet finished)",
+        name: "3x3x3 Rubik’s Cube Solver",
         projectTitle: "xd",
-        technologies: "Unity, C#",
-        msg: "A calculator for a video game called DOTA2 that calculates the number mines needed to kill an enemy by taking health points and magic resistance into concederations",
-        game: false,
+        technologies: ["Unity3D", "C#", "OpenCV", "Python", "Pytorch", "ML-Agents"],
+        msg: "A Rubik’s cube simulator created with Unity3D engine where the user can move, rotate, solve, shuffle and fill the colours of the cube manually, or scan the cube's colours to get the solving steps using an NN (Neural-Network), this project is a 2 semester subject so this project will be ready before the end of Nov 2021.",
+        game: true,
         webapp: true,
         youtubeL: false,
-        githubL: true,
-        tryL: true,
+        githubL: false,
+        tryL: false,
         youtube: "//",
-        github: "//github.com/yazan929/Techies_calculator",
+        github: "//",
         try: "",
-        date: "July 2021",
+        date: "Apr 2021",
 
     },
     {
@@ -64,9 +67,9 @@ const projectsList = [
         pic1: inti1,
         pic2: inti2,
         pic3: inti3,
-        about: "An Assignment",
+        about: "INTI- School Of Engineering And Technologies",
         name: "INTI- SOEAT",
-        technologies: "HTML, CSS",
+        technologies: ["HTML", "CSS"],
         projectTitle: "xd",
         msg: "INTI- School Of Engineering And Technologies, Is an assignment about creating a website with HTML and CSS for the School Of Engineering And Technologies at INTI collage.",
         game: true,
@@ -81,49 +84,6 @@ const projectsList = [
 
     },
     {
-        photo: yazanport,
-        pic1: yazanport1,
-        pic2: yazanport2,
-        pic3: yazanport3,
-        about: "A page about my skills and the projects that i have made",
-        name: "Portfolio webapp",
-        projectTitle: "xd",
-        technologies: "React, CSS",
-        msg: "A simple responsive Webapp that has some of my recent projects and a page about me and my skills",
-        game: false,
-        webapp: true,
-        youtubeL: false,
-        githubL: true,
-        tryL: true,
-        youtube: "//",
-        github: "//",
-        try: "",
-        date: "July 2021",
-
-    },
-    {
-        photo: Rcube,
-        pic1: Rcube1,
-        pic2: Rcube2,
-        pic3: Rcube3,
-        about: "Final year project - currently working on (not yet finished)",
-        name: "3x3x3 Rubik’s Cube Solver",
-        projectTitle: "xd",
-        technologies: "Unity3D, C#, OpenCV, Python, Pytorch, ML-Agents",
-        msg: "A Rubik’s cube simulator created with Unity3D engine where the user can move, rotate, solve, shuffle and fill the colours of the cube manually, or scan the cube's colours to get the solving steps using an NN (Neural-Network), this project is a 2 semester subject so this project will be ready before the end of Nov 2021.",
-        game: true,
-        webapp: true,
-        youtubeL: false,
-        githubL: false,
-        tryL: false,
-        youtube: "//",
-        github: "//",
-        try: "",
-        date: "Apr 2021",
-
-    },
-
-    {
         photo: yazanShoes,
         pic1: yazanShoes1,
         pic2: yazanShoes2,
@@ -131,7 +91,7 @@ const projectsList = [
         about: "Practice project where i got to learn about fullstack development",
         name: "Yazan929 Shoes Shop",
         projectTitle: "xd",
-        technologies: "React, Redux, Express, NodeJS, MongoDB, Java, Springboot",
+        technologies: ["React", "Redux", "Express", "NodeJS", "MongoDB", "Java", "Springboot"],
         msg: "A fullstack webapp where a list of shoes MongoDB loads on react using Springboot's port, users can write a review with a number of stars and a string and it will be stored on the database and can be accessed by other users from the about us tab,Code for the frontend and backend is available at the top left corner.",
         game: false,
         webapp: true,
@@ -144,6 +104,52 @@ const projectsList = [
         date: "Apr 2021",
 
     },
+    {
+        photo: techiesCal,
+        pic1: techiesCal1,
+        pic2: techiesCal2,
+        pic3: techiesCal3,
+        about: "A calculator for the videogame Dota",
+        name: "Techies Calculator Android",
+        projectTitle: "xd",
+        technologies: ["Unity", "C#"],
+        msg: "A calculator for a video game called DOTA2 that calculates the number mines needed to kill an enemy by taking health points and magic resistance into concederations.",
+        game: false,
+        webapp: true,
+        youtubeL: false,
+        githubL: true,
+        tryL: true,
+        youtube: "//",
+        github: "//github.com/yazan929/Techies_calculator",
+        try: "",
+        date: "July 2021",
+
+    },
+
+    {
+        photo: yazanport,
+        pic1: yazanport1,
+        pic2: yazanport2,
+        pic3: yazanport3,
+        about: "A page about my skills and the projects that I have made",
+        name: "Portfolio webapp",
+        projectTitle: "xd",
+        technologies: ["React", "CSS"],
+        msg: "A simple built by me from scratch, it has some of my recent projects and a section about me.",
+        game: false,
+        webapp: true,
+        youtubeL: false,
+        githubL: true,
+        tryL: true,
+        youtube: "//",
+        github: "//",
+        try: "",
+        date: "July 2021",
+
+    },
+
+
+    
 
 
     {
@@ -154,7 +160,7 @@ const projectsList = [
         about: "A GameJam submission",
         name: "Ate seconds",
         projectTitle: "xd",
-        technologies: "Unity3D, C#",
+        technologies: ["Unity3D", "C#"],
         msg: "A mobile videogame that was created in 3 days, main goal is to solve a puzzle with time reversing mechanics, Video and apk demo are availabe at the top left corner.",
         game: true,
         webapp: false,
@@ -173,9 +179,9 @@ const projectsList = [
         pic1: qomra1,
         pic2: qomra2,
         pic3: qomra3,
-        about: "A GameJam submission",
+        about: "Qomra, A GameJam submission",
         name: "Qomra",
-        technologies: "Unity3D, C#",
+        technologies: ["Unity3D", "C#"],
         projectTitle: "xd",
         msg: "A historical FPS game created with Unity C# that shows the story of ibn alHaitham and how the camera was invented, This project has fluid simulation physics, Video and demo are abailable at the top left.",
         game: true,
@@ -189,6 +195,28 @@ const projectsList = [
         date: "Dec 2019",
 
     },
+    {
+        photo: robo,
+        pic1: robo1,
+        pic2: robo2,
+        pic3: robo3,
+        about: "RoboBurger, A gameJam submission",
+        name: "RoboBurger",
+        projectTitle: "xd",
+        technologies: ["Unity3D", "C#"],
+        msg: "A videogame about the future of the UAE, the player has to to drag and drop burger components to cook them in time to get a high score",
+        game: false,
+        webapp: false,
+        youtubeL: false,
+        githubL: false,
+        tryL: false,
+        youtube: "//",
+        github: "//github.com/yazan929/RealReactShoes",
+        try: "//github.com/yazan929/ShoeBackend",
+        date: "Apr 2021",
+
+    },
+    
 
 
 ];

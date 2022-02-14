@@ -1,6 +1,6 @@
 
 .underH{
-    font-family: "Sylfaen"; src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 2rem;
     color: #000000;
 
@@ -11,12 +11,14 @@
     background-color: #3785C5;
     /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
     clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+    /* padding-bottom: -10px; */
 
 }
 .aboveAwardsP{
     background-color: #3785C5;
     /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
     clip-path: polygon(0 100%, 0 0, 100% 100%, 0 100%);
+    padding-bottom: -100px;
 }
 
 .aboutP{
@@ -67,7 +69,7 @@ width: 70%;
 
 
 .T1{    
-    font-family: "Sylfaen"; src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     text-align: center;
     font-size: 4rem;
@@ -90,7 +92,7 @@ width: 70%;
     margin-top: 50px;
     /* margin-left: 60px; */
 
-    font-family: "Sylfaen"; src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     
 }
@@ -130,13 +132,12 @@ width: 70%;
 
 .simpleTextE{
     padding-left: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 }
 
 .simpleText{
     color: white;
-    font-family: "Sylfaen";
-    src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 2.4rem;
     /* font-weight: bold; */
 
@@ -147,10 +148,15 @@ width: 70%;
     padding-bottom: 50px;
 
 }
+.simpleText2P{
+    display: flex;
+    justify-content: center;
+}
 .simpleText2{
+    max-width: 1500px;
     color: black;
-    font-family: "Sylfaen"; src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
-    font-size: 2.4rem;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: 2.4rem;
         /* max-width: 80%; */
     /* padding: 40px; */
     padding-top: 50px;
@@ -218,15 +224,21 @@ width: 70%;
     text-align: center;
     padding: 20px;
     padding-left: 65px;
-    font-family: "Sylfaen"; src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 2.3rem;
     text-transform: uppercase;
     color: black;
     width: auto;
 }
+.iconCenter{
+    display: flex;
+    justify-content: center;
+}
 .iconsList{
     /* width: 90%; */
+    max-width: 1500px;
     padding: 10px;
+    gap: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -307,7 +319,6 @@ width: 70%;
     .simpleText2{
 
         font-size: 1.5rem;
-
         width: 80%;
     
     }
@@ -386,7 +397,7 @@ width: 70%;
     height: auto;
 }
 .YazanH{
-    font-family: "Sylfaen"; src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot"); src: url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf85131ef1119a8d56e92cd8ff533995.svg#Sylfaen") format("svg"); 
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 
     font-size: 3rem;
     text-transform: uppercase;
