@@ -245,3 +245,23 @@
 
 
 
+ @media (max-width: 800px){
+    .modal{
+        flex-direction:column;
+        width: 90%;
+        height: 80%;
+    }
+    .imagesHolder:nth-child(1){
+        display: none;
+    }
+    /* .imagesHolder:nth-child(1){
+        display: none;
+    } */
+    .otherSide{
+
+        padding-left: 40px;
+    }
+    .closeHolder{
+        display: none;
+    }
+ }

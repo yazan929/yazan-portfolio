@@ -65,19 +65,12 @@ const Project = ({ project }) => {
             >
 
                 <div className="imagesHolder">
-                    {/* <button onClick={next} className="sideB">&lt; </button> */}
 
-
-                    {/* {ctr == 0 ? (
-                        <img className="imgs" src={project.pic1} alt="pic1" />) :
-                        ctr == 1 ? (<img className="imgs" src={project.pic2} alt="pic2" />) :
-                            (<img className="imgs" src={project.pic3} alt="pic3" />)} */}
                     <img className="imgs" src={project.pic1} alt="pic1" />
                     <img className="imgs" src={project.pic2} alt="pic2" />
                     <img className="imgs" src={project.pic3} alt="pic2" />
 
 
-                    {/* <button onClick={previous} className="sideB"> &gt;  </button> */}
                 </div>
 
                 <div className="otherSide">
