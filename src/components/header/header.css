@@ -121,8 +121,12 @@
 .iconS{
     font-size: 2rem;
 }
+@media (max-width: 1400px){
+.Section2 {
+    margin:auto;
 
-
+}
+}
 @media (max-width: 800px){
     .Navbar {
 
@@ -158,6 +162,7 @@
     /* grid-area: 1 / 2.5 / 2 / 5; */
     /* grid-area: 1 / 2 / 2 / 5; */
     text-align:left;
+    margin:auto;
 
     display: flex;
     justify-content: space-evenly;
