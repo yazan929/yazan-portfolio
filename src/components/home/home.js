@@ -51,14 +51,14 @@ const Home = () => (
 
                         </div>
                         <br />
-
-                        <Link to="/projects">
+{/* 
+                        <Link to="iconsList">
                             <div className="buttonHolder">
 
                                 <button className="projectsBtn"  >Check out some of my projects</button>
 
                             </div>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
 
