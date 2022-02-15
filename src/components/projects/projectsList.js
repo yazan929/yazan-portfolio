@@ -40,6 +40,11 @@ import robo1 from '../photos/projects/robo1.jpg';
 import robo2 from '../photos/projects/robo2.jpg';
 import robo3 from '../photos/projects/robo3.jpg';
 
+import snake from '../photos/projects/colorSnake.jpg';
+import snake1 from '../photos/projects/colorSnake1.jpg';
+import snake2 from '../photos/projects/colorSnake2.jpg';
+import snake3 from '../photos/projects/colorSnake3.jpg';
+
 const projectsList = [
     {
         photo: Rcube,
@@ -81,14 +86,13 @@ const projectsList = [
         github: "//www.github.com",
         try: "//htmlpreview.github.io/?https://raw.githubusercontent.com/yazan929/SOEAT-INTI/main/index.html",
         date: "July 2017",
-
     },
     {
         photo: yazanShoes,
         pic1: yazanShoes1,
         pic2: yazanShoes2,
         pic3: yazanShoes3,
-        about: "Practice project where i got to learn about fullstack development",
+        about: "Yazan929 Shoes Shop, A practice project where i got to learn about fullstack development",
         name: "Yazan929 Shoes Shop",
         projectTitle: "xd",
         technologies: ["React", "Redux", "Express", "NodeJS", "MongoDB", "Java", "Springboot"],
@@ -104,27 +108,7 @@ const projectsList = [
         date: "Apr 2021",
 
     },
-    {
-        photo: techiesCal,
-        pic1: techiesCal1,
-        pic2: techiesCal2,
-        pic3: techiesCal3,
-        about: "A calculator for the videogame Dota",
-        name: "Techies Calculator Android",
-        projectTitle: "xd",
-        technologies: ["Unity", "C#"],
-        msg: "A calculator for a video game called DOTA2 that calculates the number mines needed to kill an enemy by taking health points and magic resistance into concederations.",
-        game: false,
-        webapp: true,
-        youtubeL: false,
-        githubL: true,
-        tryL: true,
-        youtube: "//",
-        github: "//github.com/yazan929/Techies_calculator",
-        try: "",
-        date: "July 2021",
-
-    },
+    
 
     {
         photo: yazanport,
@@ -147,10 +131,6 @@ const projectsList = [
         date: "July 2021",
 
     },
-
-
-    
-
 
     {
         photo: ateSeconds,
@@ -216,8 +196,48 @@ const projectsList = [
         date: "Apr 2021",
 
     },
-    
+    {
+        photo: snake,
+        pic1: snake1,
+        pic2: snake2,
+        pic3: snake3,
+        about: "Color-Snake, A game that teaches kids the names of colors",
+        name: "Color-Snake",
+        projectTitle: "xd",
+        technologies: ["Unity3D", "C#"],
+        msg: "This game was created with C#, Unity the player plays as the classic snake, but instead of picking pixles the player must pick the right color by reading the name on top of the screen.",
+        game: true,
+        webapp: false,
+        youtubeL: false,
+        githubL: true,
+        tryL: true,
+        youtube: "//",
+        github: "//github.com/yazan929/Color-Snake",
+        try: "//yazan929.github.io/Color-Snake-WebGL/",
+        date: "Apr 2021",
 
+    },
+    {
+        photo: techiesCal,
+        pic1: techiesCal1,
+        pic2: techiesCal2,
+        pic3: techiesCal3,
+        about: "A calculator for the videogame Dota",
+        name: "Techies Calculator Android",
+        projectTitle: "xd",
+        technologies: ["Unity", "C#"],
+        msg: "A calculator for a video game called DOTA2 that calculates the number mines needed to kill an enemy by taking health points and magic resistance into concederations.",
+        game: false,
+        webapp: true,
+        youtubeL: false,
+        githubL: true,
+        tryL: true,
+        youtube: "//",
+        github: "//github.com/yazan929/Techies_calculator",
+        try: "",
+        date: "July 2021",
+
+    },
 
 ];
 export default projectsList;
