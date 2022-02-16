@@ -184,7 +184,7 @@ const projectsList = [
         name: "RoboBurger",
         projectTitle: "xd",
         technologies: ["Unity3D", "C#"],
-        msg: "A videogame about the future of the UAE, the player has to to drag and drop burger components to cook them in time to get a high score",
+        msg: "A videogame about the future of the UAE, the player has to to drag and drop burger components to cook them in time to get a high score.",
         game: false,
         webapp: false,
         youtubeL: false,
