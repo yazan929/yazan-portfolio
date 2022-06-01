@@ -146,7 +146,7 @@ const Home = () => (
             {/* <div>Thank you for your time, I wish you a pleasant day :)</div> */}
 
         </div>
-        <div> &copy; 2021 Yazan Qawasmeh</div>
+        <div> &copy; 2022 Yazan Qawasmeh</div>
 
     </div>
 
