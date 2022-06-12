@@ -1,12 +1,11 @@
-
-.textUnder{ 
+.textUnder {
     text-align: center;
     color: #3785C5;
     text-align: center;
     font-weight: bold;
 }
 
-.projectImg{    
+.projectImg {
     display: flex;
     justify-content: center;
     border-radius: 10px;
@@ -19,30 +18,32 @@
     transition: filter 0.25s ease-in;
 
 }
-.modalH:hover .projectImg{
+
+.modalH:hover .projectImg {
     filter: brightness(50%) blur(3.5px);
 }
 
-.modalTitle{
+.modalTitle {
     user-select: none;
     font-size: 1.2rem;
     color: #f2f3f4;
     font-weight: bold;
-    position:absolute;
+    position: absolute;
     top: 20px;
     text-align: center;
     width: 100%;
     opacity: 0;
     transform: translateY(10);
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
-.modalH:hover .modalTitle{
+
+.modalH:hover .modalTitle {
     opacity: 1;
     transform: translateY(0);
 }
 
-.technologiesList{
-    
+.technologiesList {
+
     position: absolute;
     padding: 20px;
     top: 20%;
@@ -53,9 +54,10 @@
     flex-wrap: wrap;
     gap: 15px;
     /* opacity: 0; */
-    
+
 }
-.technologies{
+
+.technologies {
     padding: 6px;
     font-size: 1.3rem;
     text-align: center;
@@ -69,7 +71,7 @@
     transition: opacity 0.3s ease, transform .3s ease;
 }
 
-.modalH:hover .technologiesList .technologies{
+.modalH:hover .technologiesList .technologies {
     opacity: 1;
     transform: translateY(0);
 }
@@ -78,43 +80,53 @@
 
     transition-delay: 110ms;
 }
+
 .modalH:hover .technologiesList .technologies:nth-child(2) {
 
     transition-delay: 220ms;
 }
+
 .modalH:hover .technologiesList .technologies:nth-child(3) {
 
     transition-delay: 330ms;
 }
+
 .modalH:hover .technologiesList .technologies:nth-child(4) {
 
     transition-delay: 440ms;
 }
+
 .modalH:hover .technologiesList .technologies:nth-child(5) {
 
     transition-delay: 550ms;
 }
+
 .modalH:hover .technologiesList .technologies:nth-child(6) {
 
     transition-delay: 660ms;
 }
+
 .modalH:hover .technologiesList .technologies:nth-child(7) {
 
     transition-delay: 770ms;
 }
+
 .modalH:hover .technologiesList .technologies:nth-child(8) {
 
     transition-delay: 880ms;
 }
+
 .modalH:hover .technologiesList .technologies:nth-child(9) {
 
     transition-delay: 990ms;
 }
+
 .modalH:hover .technologiesList .technologies:nth-child(10) {
 
     transition-delay: 1100ms;
 }
-.modalH{
+
+.modalH {
     position: relative;
     text-align: center;
     cursor: pointer;
@@ -125,16 +137,18 @@
 /* .listOfProjects{
     display: flex !important; 
 } */
-.modal{
-        -moz-transform: scale(0.7, 0.7);
-        zoom: 0.7;
-        zoom: 70%;
+.modal {
+    -moz-transform: scale(0.7, 0.7);
+    zoom: 0.7;
+    zoom: 70%;
+
+
     position: absolute;
     left: 50%;
     top: 57%;
     transform: translate(-50%, -50%);
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     background: #f3f3f3;
     /* height: 76%; */
     width: 1200px;
@@ -150,54 +164,62 @@
 
 
 
-.imgs{
+.imgs {
     object-fit: cover;
     /* width: 500px;
     height: 700px; */
-    width: 70%;
+    width: 75%;
     text-align: center;
     padding-top: 3px;
     padding-bottom: 3px;
 }
 
-.imagesHolder{
+.imagesHolder {
     /* text-align: center; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
+    justify-content: center;
+    gap: 1em;
     /* padding-right: 70px; */
     /* padding-left: 20px; */
     /* padding: 10px; */
-    
+
 }
-.otherSide{
+
+.otherSide {
     display: flex;
     flex-direction: column;
     padding-top: 8px;
 }
 
 
-.modalButtons{
-    
-}
-.closeHolder{
+.modalButtons {}
+
+.closeHolder {
     margin-left: 630px;
 
 }
 
-.closeButton{
+.closeButton {
     cursor: pointer;
     transition: 0.3s ease;
     color: #3785C5;
     padding-left: 10px;
     text-align: center;
     font-size: 1.9rem;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    transform: scale(1.5);
 }
-.closeButton:hover{
+
+.closeButton:hover {
     color: #3175ad;
 
 }
-.iconA{
+
+.iconA {
     cursor: pointer;
     transition: 0.3s ease;
     color: #3785C5;
@@ -205,19 +227,21 @@
     font-size: 3rem;
 }
 
-.iconNA{
+.iconNA {
     cursor: pointer;
     transition: 0.3s ease;
     color: #304252;
     padding-right: 10px;
     font-size: 3rem;
 }
-.modalAbout{
+
+.modalAbout {
     font-size: 3rem;
     color: #3785C5;
     width: 100%;
 }
-.modalDesc{
+
+.modalDesc {
     padding-top: 30px;
     margin-right: 20px;
     font-size: 1.4rem;
@@ -225,7 +249,7 @@
     width: 70%;
 }
 
-.technologiesBoxes{
+.technologiesBoxes {
     padding-top: 30px;
     display: flex;
     flex-direction: row;
@@ -233,14 +257,14 @@
     width: 70%;
 }
 
-.techBox{
+.techBox {
     margin-top: 20px;
-    margin-right: 20px ;
+    margin-right: 20px;
     padding: 10px;
     font-weight: bold;
     color: #1D1D1D;
     /* background-color:pink; */
-    background-color:#3785C5;
+    background-color: #3aa2f8;
     transition: 1s;
     border-radius: 3px;
     cursor: pointer;
@@ -250,10 +274,10 @@
     transform: rotate(20deg);
     -webkit-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
- }
+}
 
 
- /* @media (max-height: 1800px) {
+/* @media (max-height: 1800px) {
     .modal{
         -moz-transform: scale(0.8, 0.8);
         zoom: 0.8;
@@ -261,49 +285,54 @@
     }
 } */
 
- @media (max-width: 800px){
-    .modal{
-        flex-direction:column;
+@media (max-width: 800px) {
+    .modal {
+        flex-direction: column;
         width: 90%;
         height: 80%;
     }
-    .imagesHolder:nth-child(1){
+
+    .imagesHolder:nth-child(1) {
         display: none;
     }
+
     /* .imagesHolder:nth-child(1){
         display: none;
     } */
-    .modalAbout{
+    .modalAbout {
         font-size: 1.5rem;
         color: #3785C5;
         width: 100%;
     }
-    .otherSide{
+
+    .otherSide {
 
         padding-left: 40px;
     }
-    .modalDesc{
+
+    .modalDesc {
         padding-top: 30px;
         margin-right: 20px;
         font-size: 0.8rem;
         color: white;
         width: 70%;
     }
-    .closeHolder{
+
+    .closeHolder {
         display: none;
     }
 
 
-    .techBox{
+    .techBox {
         margin-top: 20px;
-        margin-right: 20px ;
+        margin-right: 20px;
         padding: 5px;
         font-weight: bold;
         color: #1D1D1D;
         /* background-color:pink; */
-        background-color:#3785C5;
+        background-color: #3785C5;
         transition: 1s;
         border-radius: 3px;
         cursor: pointer;
     }
- }
+}
