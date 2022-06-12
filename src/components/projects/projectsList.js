@@ -51,7 +51,7 @@ const projectsList = [
         pic1: Rcube1,
         pic2: Rcube2,
         pic3: Rcube3,
-        about: "3x3x3 Rubik’s Cube Solver, Final year project (not yet finished)",
+        about: "3x3x3 Rubik’s Cube Solver, Final year project",
         name: "3x3x3 Rubik’s Cube Solver",
         projectTitle: "xd",
         technologies: ["Unity3D", "C#", "OpenCV", "Python", "Pytorch", "ML-Agents"],
