@@ -35,10 +35,10 @@ const Header = () => (
                 <AiFillMail className="iconS"></AiFillMail>
             </a>
 
-            <a className="icon" href="https://www.linkedin.com/in/yazan-qawasmeh-4108b2173/" title="Call me">
+            {/* <a className="icon" href="https://www.linkedin.com/in/yazan-qawasmeh-4108b2173/" title="Call me">
                 <AiFillPhone className="iconS"></AiFillPhone>
 
-            </a>
+            </a> */}
 
         </div>
 
