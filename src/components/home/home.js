@@ -42,12 +42,12 @@ const Home = () => (
                         <div className="YazanH">Biography </div>
                         <br />
                         <br />
-                        <div className="underH">A bachelor's degree student in the Department of Computer Science at Coventry University,
-                            I have a Diploma in Information Technology from INTI college in collaboration with IBM.
+                        <div className="underH">A graduate from Coventry University with a Bachelor's degree in Computer Science and a
+                            Diploma in Information Technology from INTI College in collaboration with IBM. I love creating user-friendly video games and applications.
                         </div>
                         <br />
                         <div className="underH">Highly motivated developer, passionate about learning and constantly seeking new challenges.
-                            Loves building user-friendly websites, web apps and creating video games.
+                            
 
                         </div>
                         <br />
@@ -75,7 +75,7 @@ const Home = () => (
             <div className="aboutP">
                 <div className="aboutPP">
                     <div className="T1">ABOUT</div>
-                    <div className="simpleText"> My name is Yazan Qawasmeh, I'm a junior software engineer who is always experimenting, learning, and never bored, Currently I am focusing on improving my web development skills and at React as a framework.  </div>
+                    <div className="simpleText"> My name is Yazan Qawasmeh. I'm a software engineer with a passion for programming. With 7 years of experience in Unity3D, I enjoy experimenting and learning new things.  </div>
                 </div>
 
             </div>
@@ -83,6 +83,22 @@ const Home = () => (
 
             <div className="T1B">SKILLS</div>
             <div>
+                <div className="subTitle">Game Development and Machine learning</div>
+
+                <div className="iconCenter">
+
+                    <div className="iconsList">
+                        <img className="iconLogo" src={csharp} alt="Csharp" title="C#" />
+                        <img className="iconLogo" src={unity3d} alt="Unity3D" title="Unity3D" />
+                        <img className="iconLogo" src={opencv} alt="OpenCV" title="OpenCV" />
+                        <img className="iconLogo" src={python} alt="Python" title="Python" />
+                        <img className="iconLogo" src={pytorch} alt="Pytorch" title="Pytorch" />
+
+                    </div>
+                </div>
+
+                <br />
+                <br />
                 <div className="subTitle">Web Development languages frameworks and tools</div>
                 <div className="iconCenter">
 
@@ -99,20 +115,6 @@ const Home = () => (
                         <img className="iconLogo" src={git} alt="Git" title="Git" />
                         <img className="iconLogo" src={github} alt="GitHub" title="GitHub" />
 
-
-                    </div>
-                </div>
-                <br />
-                <br />
-                <div className="subTitle">Game Development and Machine learning</div>
-                <div className="iconCenter">
-
-                    <div className="iconsList">
-                        <img className="iconLogo" src={csharp} alt="Csharp" title="C#" />
-                        <img className="iconLogo" src={unity3d} alt="Unity3D" title="Unity3D" />
-                        <img className="iconLogo" src={opencv} alt="OpenCV" title="OpenCV" />
-                        <img className="iconLogo" src={python} alt="Python" title="Python" />
-                        <img className="iconLogo" src={pytorch} alt="Pytorch" title="Pytorch" />
 
                     </div>
                 </div>
@@ -146,7 +148,7 @@ const Home = () => (
             {/* <div>Thank you for your time, I wish you a pleasant day :)</div> */}
 
         </div>
-        <div> &copy; 2022 Yazan Qawasmeh</div>
+        <div> &copy; 2024 Yazan Qawasmeh</div>
 
     </div>
 
